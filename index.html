@@ -8,240 +8,342 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <head>
-  <style>
-  * {
-    box-sizing: border-box;
-  }
+   <style>
+       * {
+          box-sizing: border-box;
+        }
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+     }
   
-  /* Style the header */
-  header {
-    background-color: #666;
-    float: right;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    margin-left: 50px;
-    padding: 1px 1px 1px 0px;
-    width: 65%;
-    height: 120px;
-  }
+      header {
+        background-color: #666;
+        float: right;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        margin-left: 50px;
+        padding: 1px 1px 1px 0px;
+        width: 65%;
+        height: 120px;
+      }
   
-  nav {
-    background-color: #DDDDDD;
-    padding: 1px 0px 0px 0px;
-    text-align: left;
-    font-size: 14px;
-    height: 120px;
-    width: 40%;
-    color: black;
-  }
-  
-  /*gives background to the quotes*/
-  article {
-  
-    text-align: center;
-    margin-top: -20px;
-    height: 1075px;
-    padding: 20px;
+      nav {
+        background-color: #DDDDDD;
+        padding: 1px 0px 0px 0px;
+        text-align: left;
+        font-size: 14px;
+        height: 120px;
+        width: 40%;
+        color: black;
+      }
 
-    color: black;
-	background-color: skyblue;
-    
-
-/*Quote boxes*/
-   }
-   .box1 {
-  float:left;
-  width:250px;
-  height: 60px;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  border: solid 3px #c0c0c0;
-  background-color: teal;
-  }
+      .image {
+        float: left;
+      }
   
-  .clear {clear: both;}
+        /*gives background to the quotes*/
+      article {
+        text-align: center;
+        margin-top: -18px; /*-20px*/
+        height: 1200px;
+        padding: 10px;
+        color: black;
+	      background-color: skyblue;
+      }
 
-  .box2 {
-  float: left;
-  width: 250px;
-  height: 160px;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  margin-top: -10px;
-  border: solid 3px #c0c5e8;
-  background-color:#8e80b9;
-  }
+        /*Quote boxes*/
+      .box1 {
+        float:left;
+        width:250px;
+        height: 60px;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        border: solid 3px #c0c5e8;
+        background-color: #81A1C8;
+      }
+  
+      .clear {clear: both;}
+
+      .box2 {
+        float: left;
+        width: 250px;
+        height: 160px;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        margin-top: -10px;
+        border: solid 3px #c0c5e8;
+        background-color:#a79cc8;
+      }
      
-  .clear {clear: both;}
+      .clear {clear: both;}
 
-  .box3 {
-  float:left;
-  width:250px;
-  height: 60px;
-  margin: 10px;
-  padding: 10px;
-  margin-left: 30%;
-  text-align: left;
-  border: solid 3px #c0c0c0;
-  background-color: teal;
-  }
+      .box3 {
+        float:left;
+        width:250px;
+        height: 60px;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 36%;
+        text-align: left;
+        border: solid 3px #c0c5e8;
+        background-color: #81A1C8;
+      }
 
-  .clear {clear: both;}
+      .clear {clear: both;}
              
-  .box4 {
-  float: left;
-  width: 250px;
-  height: 160px;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  margin-left: 30%;
-  margin-top: -10px;
-  border: solid 3px #c0c5e8;
-  background-color:#8e80b9;
-  }
+      .box4 {
+        float: left;
+        width: 250px;
+        height: 160px;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        margin-left: 36%;
+        margin-top: -10px;
+        border: solid 3px #c0c5e8;
+        background-color:#a79cc8;
+      }
 
-  .clear {clear: both;}
+      .clear {clear: both;}
 
-  .box5 {
-  float:left;
-  width:250px;
-  height: 60px;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  border: solid 3px #c0c0c0;
-  background-color: teal;
-  }
+      .box5 {
+        float:left;
+        width:250px;
+        height: 60px;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        border: solid 3px #c0c5e8;
+        background-color: #81A1C8;  
+      }
 
-  .clear {clear: both;}
+      .clear {clear: both;}
 
-  .box6 {
-  float: left;
-  width: 250px;
-  height: 160px;
-  margin: 10px;
-  padding: 10px;
-  margin-top: -10px;
-  text-align: left;
-  border: solid 3px  #c0c5e8;
-  background-color:#8e80b9;
-  }
+      .box6 {
+        float: left;
+        width: 250px;
+        height: 160px;
+        margin: 10px;
+        padding: 10px;
+        margin-top: -10px;
+        text-align: left;
+        border: solid 3px #c0c5e8;
+        background-color:#a79cc8;
+      }
               
-  .clear {clear: both;}
+     .clear {clear: both;}
   
-  section::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
   
-  #button{
+  
+      footer {
+        background-color: #777;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+  
+      .videoplayer {
+        float: right;
+        height: 50px;
+      }
 
-    background-image:linear-gradient(#1B998B, #0a206d); 
-    border-radius: 12px; 
-    height: 85px; 
-    width: 75%; 
-    margin: auto; 
-    color: white; 
-    text-align: center; 
-    padding-top: 40px; 
-    font-size: 1.2em;
-}
+      .SecretPage {
+        visibility: hidden;
+      }
+
   
-  footer {
-    background-color: #777;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    color: white;
-  }
-  
-  
-  </style>
+     @media only screen and (min-width: 1023px) {
+        video {
+          border: solid 4px gold;
+          width: 640px;
+          height: 360px;
+        }
+
+        .Introduction {
+          float: left;
+          max-width: 38%;
+          text-align: center;
+        }
+
+        .videoplayer {
+          width: 35%;
+          float: right;
+          margin-right: 27%;
+        }
+
+        .SecretPage {
+          visibility: hidden;
+        }
+
+        .Smirk {
+          visibility: visible;
+        }
+
+        .SmirkPlay{
+          visibility: hidden;
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 1px) {
+        .videoplayer{
+          display: none;
+        }
+
+        .box3{
+          float: right;
+          margin-right: 35%;
+        }
+
+        .box4{
+          float: right;
+          margin-right: 35%;
+        }
+
+        .SecretPage {
+          visibility: visible;
+        }
+
+        .Smirk {
+          visibility: hidden;
+          display: none;
+        }
+
+        .SmirkPlay{
+        visibility: visible;
+        }
+      }
+
+
+
+    </style>
   </head>
 
   <body>
+
   
-  
-  <header>
-    <h2>Barry!</h2>
-  </header>
-  
-  <section>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About the Movie</a></li>
-        <li><a href="memes.html">Memes</a></li>
-        <li><a href="#">Secret Page</a></li>
-      </ul>
-    </nav>
-  <center>
-    <image>
+    <header>
+      <h2><p id="lesgo"></p></h2>
+    </header>
 
-    </image>
-  </center>
-    <article>
-      <p><img src="images/beesmirk.jfif" alt="Barry bee"></p><br>
-      <h1>Look what these people said!</h1>
-          <p>We asked a couple of memers for their opinions on memes. 
-          This is what they said
-          </p>
+    <script>
+      let width = window.innerWidth;
+      document.getElementById("lesgo").innerHTML = "current window width is " + width + "px";
+    </script>
 
-  <!--boxes 1, 3, and 5 are the "body" box, hold what the person says-->
-  <!--boxes 2, 4, and 6 are the "head" box, holds their first name and their city/state-->
-  <div class="box1">
-    Hank Hill, 45 <br>
-    Arlon, TX
-  </div>
-  <div class="clear"></div>
-  
-  <div class="box2">
-    My name is Hank Hill. I'm just here to collect my jpeg of a hotdog.
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">Home ←-</a></li>
+          <li><a href="about.html">About the Movie</a></li>
+          <li><a href="memes.html">Memes</a></li>
+          <li class="SecretPage"><a href="Secret.html">ooooh, a secret</a></li>  
+        </ul>
+      </nav>
 
-  </div>
+      <article> 
 
-  <div class="clear"></div>
-
-  <div class="box3">
-    Ryan Young, 20<br>
-    Smogville, MN
-  </div>
-  <div class="clear"></div>
-    
-  <div class="box4">
-    Hi, I'm Ryan! I like the bee movie because i have a huge crush on Jerry Sienfeld.
-  </div>
-
-  <div class="clear"></div>
-
-  <div class="box5">
-    Rob Bentz, unknown<br>
-    Bloomington, MN
-  </div>
-  
-  <div class="clear"></div>
-    
-  <div class="box6">
-    Hi, I'm Rob. I absolutely adore the bee movie! My favorite character is.. uhh.. i dunno. Probably blah blah
-  </div>
-  
-  <div class="clear"></div>
+           <!--FOR DESKTOP, PICTURE IS JUST A PICTURE-->
+        <div class="Introduction">
+          <div class="Smirk">
+            <p><img src="images/beesmirk.jfif" alt="Barry bee"></p><br>
+            <h1>Look what these people said!</h1>
+              <p>We asked a couple of memers for their opinions on memes. 
+                This is what they said
+              </p>
+          </div>
           
-    </article>
-  </section>
+          <!--FOR MOBILE, PICTURE HAS PLAY BUTTON W/ HREF-->
+          <div class="SmirkPlay">
+            <p><a href="Secret.html"><img src="images/BeeSmirkPlay.png" alt="Barry bee"></a></p><br>
+            <h1>Look what these people said!</h1>
+              <p>We asked a couple of memers for their opinions on memes. 
+              This is what they said
+              </p>
+          </div>
+
+        </div>
+
+        <!--boxes 1, 3, and 5 are the "body" box, hold what the person says-->
+        <!--boxes 2, 4, and 6 are the "head" box, holds their first name and their city/state-->
   
-  <footer>
-    <p>copyright David's bullshit. All rights reserved</p>
-  </footer>
+        <div class="videoplayer">
+          <video id="BeeMovie" width="640" height="360" controls>  <!--Res should be 640x360 for anything above 1024p, <width="325" height="325">-->
+            <source src="video/Bee Movie 2007.mp4" type="video/mp4">
+            Error 404: no video found
+          </video>
+        </div>
+ 
+        <div class="clear"></div>
+  
+        <div class="box1">
+          Hank Hill, 45 <br>
+          Arlon, TX
+        </div>
+        <div class="clear"></div>
+  
+        <div class="box2">
+          My name is Hank Hill. I'm just here to collect my jpeg of a hotdog.
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="box3">
+          Ryan Young, 20<br>
+          Smogville, MN
+        </div>
+        <div class="clear"></div>
+    
+        <div class="box4">
+          Hi, I'm Ryan! I like Bee movie because I have a huge crush on Vanessa Bloome.
+        </div>
+
+        <div class="clear"></div>
+  
+        <div class="box5">
+          Rob Bentz, unknown<br>
+          Bloomington, MN
+        </div>
+  
+        <div class="clear"></div>
+    
+        <div class="box6">
+        Hi, I'm Rob. I absolutely adore the bee movie! My favorite character is.. uhh.. i dunno. Probably blah blah
+        </div>
+  
+        <div class="clear"></div>
+
+
+      </article>
+    </section>
+  
+    <footer>
+      <p>copyright David's bullshit. All rights reserved</p>
+    </footer>
   
   </body>
-  </html>
+</html>
+
+
+  <!--TO-DO:
+  Add buttons to control media in footer
+    -Play, Pause, maybe pop out?
+  
+  Add Favicon
+  
+  Add more "graphical" things
+
+  Transfer CSS to external style sheet
+    -maybe call each file w/ css sheet. Not a priority atm
+  
+  
+  -->

@@ -1,63 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Interesting facts about Bee Movie</title>
-<meta charset="UTF-8"> 
-<meta name="description" content="bee movie">
-<meta name="keywords" content="Bees">
-<meta name="author" content="David Bowers">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interesting facts about Bee Movie</title>
+  <meta charset="UTF-8"> 
+  <meta name="description" content="bee movie">
+  <meta name="keywords" content="Bees">
+  <meta name="author" content="David Bowers">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-
-<style>
-
-nav {
-    background-color: #DDDDDD;
-    padding: 1px 0px 0px 0px;
-    text-align: left;
-    font-size: 14px;
-    height: 80px;
-    width: 100%;
-    color: black;
-  }
+  <head>
+    <style>
 
 
-</style>
+      /*Anything >=1023px will change all this, and not show the secret page*/
+      @media only screen and (min-width: 1023px) {
+        nav {
+          background-color: #DDDDDD;
+          padding: 1px 0px 0px 0px;
+          text-align: left;
+          font-size: 14px;
+          height: 80px;
+          width: 100%;
+          color: black;
+        }
 
-</head>
+        .SecretPage {
+          visibility: hidden;
+          display: none;
+          }
+      }
+        /*anything <=1023px but >=100px will do the same, 
+        except display the secret page href and increase nav height by 20px*/
+      @media only screen and (max-width: 1024px) and (min-width: 100px) {
+        .SecretPage {
+          visibility: visible;
+        }
+        nav {
+          background-color: #DDDDDD;
+          padding: 1px 0px 0px 0px;
+          text-align: left;
+          font-size: 14px;
+          height: 100px;
+          width: 100%;
+          color: black;
+        }
+      }
 
-<body>
 
-  <section>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="memes.html">Memes</a></li>
-        <li><a href="#">Secret Page</a></li>
-      </ul>
-    </nav>
+    </style>
 
-      <h1>
-        Facts about barry
-      </h1>
-    <ol>
-      * Total time in school: 9 days<br>
-      * Lives in a hive somewhere in NYC<br>
-      * Loves flowers
-    </ol>
+  </head>
 
-     <h2>
-     Here's some other interesting information
-     </h2>
+  <body>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About the Movie ←</a></li>
+          <li><a href="memes.html">Memes</a></li>
+          <li class="SecretPage"><a href="Secret.html">ooooh, a secret</a></li>
+        </ul>
+      </nav>
+        <h1>
+          Facts about barry
+        </h1>
+      <ol>
+        * Total time in school: 9 days<br>
+        * Lives in a hive somewhere in NYC<br>
+        * Loves flowers
+      </ol>
+
+      <h2>
+        Here's some other interesting information
+      </h2>
         <p>
             Bee Movie is the work of Jerry Sienfeld. It came up over dinner with Steven Spielberg.
             Sienfeld was apparently really in-tune with Barry Bee, the main character. As the movie developed, Jerry became one with Barry.
             What I mean by that is when the cast was voicing their characters, Jerry was really starting to become barry, and the animators at Dreamworks helped aid that on screen.
-            Apparently, the entire script, which is all over this entire site, took on 215 iterations. Bee Movie had a budget of $150 million, and had a net profit of $27 million.
+            Apparently, the entire script, which is all over <a href="index.html">this entire site</a>, took on 215 iterations. Bee Movie had a budget of $150 million, and had a net profit of $27 million.
         </p>
             <iframe id="reddit-embed" src="https://www.redditmedia.com/r/Cursed_Images/comments/chh3zj/bee_movie_behind_the_scenes/?ref_source=embed&amp;ref=share&amp;embed=true" style="border: none;" height="550" width="640" scrolling="no"></iframe>
-        
-
-</body>
-
+    </section>
+  </body>
 </html>
